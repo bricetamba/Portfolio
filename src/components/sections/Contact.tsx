@@ -42,7 +42,7 @@ export function Contact() {
             onMouseOut={e => { const a = e.currentTarget as HTMLAnchorElement; a.style.transform = "translateY(0)"; a.style.boxShadow = "0 2px 14px rgba(230,181,74,0.25)"; }}>
             <Mail size={16} /> Send an email
           </a>
-          <a href="/resume.pdf" download
+          <a href="/Tamba_Prono_Brice_Resume.pdf" download
             style={{ display: "inline-flex", alignItems: "center", gap: "0.5rem", padding: "0.875rem 2rem", borderRadius: "var(--radius-md)", fontSize: "0.9rem", fontWeight: 600, background: "rgba(255,255,255,0.04)", color: "var(--text-secondary)", textDecoration: "none", border: "1px solid var(--border)", transition: "all 0.25s" }}
             onMouseOver={e => { const a = e.currentTarget as HTMLAnchorElement; a.style.background = "rgba(255,255,255,0.08)"; a.style.borderColor = "var(--border-hover)"; a.style.transform = "translateY(-1px)"; }}
             onMouseOut={e => { const a = e.currentTarget as HTMLAnchorElement; a.style.background = "rgba(255,255,255,0.04)"; a.style.borderColor = "var(--border)"; a.style.transform = "translateY(0)"; }}>
